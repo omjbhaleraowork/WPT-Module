@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Display One Image from Multiple Images</title>
+    <link rel="stylesheet" href="image.css" />
+  </head>
+  <body>
+    <h1>Select an Image:</h1>
+    <div id="image-container">
+      <img
+        src="cat7.jpg"
+        alt="Image 1"
+        class="image"
+        onclick="showImage('cat7.jpg')"
+      />
+      <img
+        src="cat1.jpg"
+        alt="Image 2"
+        class="image"
+        onclick="showImage('cat1.jpg')"
+      />
+      <img
+        src="cat2.jpg"
+        alt="Image 3"
+        class="image"
+        onclick="showImage('cat2.jpg')"
+      />
+      <img
+        src="cat4.jpg"
+        alt="Image 4"
+        class="image"
+        onclick="showImage('cat4.jpg')"
+      />
+    </div>
+    <div id="selected-image-container">
+      <h2>Selected Image:</h2>
+      <img id="selected-image" src="cat7.jpg" alt="Selected Image" />
+    </div>
+    <script src="image.js"></script>
+  </body>
+</html>

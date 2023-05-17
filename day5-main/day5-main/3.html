@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inline Javascript</h1>
+    <input type="button" value="Error Here" onclick="ANY_VALID_JS_SYNTAX" />
+
+    <input type="button" value="Alert Me" onclick="alert()" />
+    <input type="button" value="Console Me" onclick="console.log()" />
+
+    <h1>Intersting</h1>
+    <input
+      type="button"
+      value="Custom Fun"
+      onclick="function hello(){ alert('i m also inline')}; hello();"
+    />
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <script src="calculator.js"></script>
+  </head>
+  <body style="background-color: blueviolet">
+    <center
+      style="
+        padding: 1;
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        font-size: larger;
+      "
+    >
+      <h1 style="color: white"><u>CALCULATOR</u></h1>
+    </center>
+    <div
+      style="
+        height: 3cm;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+      "
+    >
+      <input
+        id="id1"
+        type="number"
+        placeholder=" INPUT NUMBER 1 "
+        style="padding: 1cm"
+      />
+      <input
+        id="id2"
+        type="number"
+        placeholder=" INPUT NUMBER 2 "
+        style="padding: 1cm"
+      />
+    </div>
+    <div
+      style="
+        padding-top: 2cm;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      "
+    >
+      <input
+        type="button"
+        value="ADD"
+        onclick="add ()"
+        style="background-color: aqua"
+      />
+      <input
+        type="button"
+        value="SUB"
+        onclick="substract ()"
+        style="background-color: yellowgreen"
+      />
+      <input
+        type="button"
+        value="MULTIPICATION"
+        onclick="multipication ()"
+        style="background-color: salmon"
+      />
+      <input
+        type="button"
+        value="DIVISION"
+        onclick="division ()"
+        style="background-color: red"
+      />
+    </div>
+  </body>
+</html>

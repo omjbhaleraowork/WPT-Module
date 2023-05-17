@@ -1,0 +1,49 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .color-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .color-buttons button {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .color-buttons button:hover {
+    background: #ddd;
+  }
+  
+  .toggle-button {
+    margin-top: 20px;
+  }
+  
+  .toggle-button button {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .toggle-button button:hover {
+    background: #ddd;
+  }
+  .disabled {
+    opacity: 0.5;
+  }
+  

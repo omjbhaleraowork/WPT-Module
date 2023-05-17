@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="9.js"></script>
+  </head>
+  <body>
+    <p style="font-size: 18px">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+      consectetur eligendi dicta cupiditate libero? Ab aliquid incidunt ipsum
+      quam itaque illo saepe veritatis tempora. Excepturi harum corrupti maiores
+      vero modi!
+      <input id="add-to-cart" type="button" value="Add To Cart" />
+    </p>
+    <hr />
+
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('red')"
+      style="background: red; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('green')"
+      style="background: green; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('blue')"
+      style="background: blue; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('')"
+      style="background: black; width: 50px; cursor: pointer"
+    />
+    <br />
+    <br />
+
+    <input type="button" value="Increase Font" onclick="applyFont('21px')" />
+    <input type="button" value="Decrease Font" onclick="applyFont('15px')" />
+    <input type="button" value="Reset Font" onclick="applyFont('')" />
+
+    <br />
+    <br />
+    <input
+      type="button"
+      value="ENABLE | Available"
+      onclick="applyAvailability(true)"
+      style="cursor: pointer"
+    />
+    <input
+      type="button"
+      value="DISABLE | Soldout"
+      onclick="applyAvailability(false)"
+      style="cursor: pointer"
+    />
+
+    <br />
+    <br />
+    <input type="button" value="SHOW CART" onclick="showAndHide(true)" />
+    <input type="button" value="HIDE CART" onclick="showAndHide(false)" />
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid #333;
+  }
+  
+  #selected-image-container {
+    margin-top: 50px;
+  }
+  
+  #selected-image-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #selected-image {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+  }
+  
